@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: yolov8s-GAM-Attention.yaml
+model: /root/yolo-workspace/ultralytics_improved/runs/detect/train3/weights/last.pt
 data: improved.yaml
 epochs: 416
 time: null
@@ -78,7 +78,7 @@ momentum: 0.937
 weight_decay: 0.0005
 warmup_epochs: 3.0
 warmup_momentum: 0.8
-warmup_bias_lr: 0.1
+warmup_bias_lr: 0.0
 box: 7.5
 cls: 0.5
 dfl: 1.5
